@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Photography</title>
+<meta name="description" content="Photography portfolio">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,440;1,9..144,400&family=Work+Sans:wght@300;400;500&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="rail" aria-hidden="true">
+  <div class="rail-track"><div class="rail-fill" id="railFill"></div></div>
+  <div class="rail-count"><span id="railCurrent">00</span> / <span id="railTotal">06</span></div>
+</div>
+
+<header class="hero">
+  <nav class="topnav">
+    <span class="topnav-mark">YOUR NAME</span>
+    <a href="#contact" class="topnav-link">Contact</a>
+  </nav>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">A photographic journal — 2021–2026</p>
+    <h1 class="hero-title">Quiet<br>Distances</h1>
+    <p class="hero-sub">Six places. Six mornings I couldn't put the camera down. Scroll to walk through them in order.</p>
+  </div>
+  <div class="hero-scrollcue" aria-hidden="true"><span></span></div>
+</header>
+
+<main>
+
+  <section class="frame" data-index="1" id="s1">
+    <img class="frame-img" src="https://picsum.photos/seed/quietdist01/1800/2400" alt="Fog over a still lake at dawn, a single wooden dock reaching into the water">
+    <div class="frame-caption">
+      <span class="frame-num">01</span>
+      <h2 class="frame-title">The Lake Before Anyone Wakes</h2>
+      <p class="frame-meta">Muskoka, Ontario — 5:42 AM — 24mm, f/8</p>
+      <p class="frame-text">Three mornings in a row I rowed out before the fog lifted, waiting for the one minute the water goes completely still.</p>
+    </div>
+  </section>
+
+  <section class="frame frame--right" data-index="2" id="s2">
+    <img class="frame-img" src="https://picsum.photos/seed/quietdist02/1800/2400" alt="Narrow alley between whitewashed buildings with a single hanging lamp">
+    <div class="frame-caption">
+      <span class="frame-num">02</span>
+      <h2 class="frame-title">Alleyway, No Name</h2>
+      <p class="frame-meta">Chefchaouen, Morocco — 8:15 PM — 35mm, f/2</p>
+      <p class="frame-text">I never found this street on a map again. Some places you only get to visit once, and that's fine.</p>
+    </div>
+  </section>
+
+  <section class="frame" data-index="3" id="s3">
+    <img class="frame-img" src="https://picsum.photos/seed/quietdist03/1800/2400" alt="A lone tree standing in a field of tall grass under an overcast sky">
+    <div class="frame-caption">
+      <span class="frame-num">03</span>
+      <h2 class="frame-title">One Tree, Every Season</h2>
+      <p class="frame-meta">Cotswolds, England — 6:50 AM — 50mm, f/5.6</p>
+      <p class="frame-text">I've photographed this same tree four times now. This is the frame I keep coming back to.</p>
+    </div>
+  </section>
+
+  <section class="frame frame--right" data-index="4" id="s4">
+    <img class="frame-img" src="https://picsum.photos/seed/quietdist04/1800/2400" alt="Fishing boats resting on wet sand as the tide goes out">
+    <div class="frame-caption">
+      <span class="frame-num">04</span>
+      <h2 class="frame-title">Low Tide</h2>
+      <p class="frame-meta">Essaouira, Morocco — 7:30 AM — 24mm, f/11</p>
+      <p class="frame-text">The boats look stranded for about twenty minutes a day. I planned an entire trip around that window.</p>
+    </div>
+  </section>
+
+  <section class="frame" data-index="5" id="s5">
+    <img class="frame-img" src="https://picsum.photos/seed/quietdist05/1800/2400" alt="Steam rising from a hot spring surrounded by snow-covered pine trees">
+    <div class="frame-caption">
+      <span class="frame-num">05</span>
+      <h2 class="frame-title">Minus Twelve</h2>
+      <p class="frame-meta">Nagano, Japan — 7:05 AM — 85mm, f/4</p>
+      <p class="frame-text">My hands stopped working properly after ten minutes. Worth it for the way the steam held its shape.</p>
+    </div>
+  </section>
+
+  <section class="frame frame--right" data-index="6" id="s6">
+    <img class="frame-img" src="https://picsum.photos/seed/quietdist06/1800/2400" alt="A person walking alone across a vast salt flat toward the horizon">
+    <div class="frame-caption">
+      <span class="frame-num">06</span>
+      <h2 class="frame-title">Walking Toward Nothing in Particular</h2>
+      <p class="frame-meta">Salar de Uyuni, Bolivia — 4:20 PM — 70mm, f/9</p>
+      <p class="frame-text">That's me in the frame, actually — my tripod, a ten-second timer, and about four hundred attempts.</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="outro" id="contact">
+  <p class="outro-eyebrow">That's the journal, for now</p>
+  <h2 class="outro-title">More on the way.</h2>
+  <p class="outro-text">I'm usually somewhere between trips, editing. If you'd like to talk about a shoot, a print, or just where to find good light —</p>
+  <a class="outro-link" href="mailto:hello@yourname.com">hello@yourname.com</a>
+  <div class="outro-social">
+    <a href="#">Instagram</a>
+    <span>/</span>
+    <a href="#">Prints shop</a>
+  </div>
+  <p class="outro-copyright">© 2026 Your Name. All images and words are mine — please ask before using them.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
